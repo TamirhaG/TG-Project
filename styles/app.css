@@ -1,0 +1,94 @@
+body {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 95px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  display: block;
+}
+
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  margin-bottom: 45px;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.primary-link {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  padding: 20px 15px;
+  margin: 20px;
+}
+
+.secondary-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 20px 15px;
+  margin: 20px;
+}
+
+.homepage-link {
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+  color: var(--primary-color);
+  margin: 0 auto;
+  padding: 0%;
+}
+
+.about-paragraphs {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: #6c63ff;
+}
+
+.mt-5 {
+  margin-top: 30px;
+}
+
+.mt-5 a {
+  margin: 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
